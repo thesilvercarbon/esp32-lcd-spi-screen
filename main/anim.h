@@ -7,9 +7,10 @@
 #define ANIM_W            172
 #define ANIM_H            160
 #define ANIM_FRAME_BYTES  (ANIM_W * ANIM_H * 2)   // 55040
-#define LISTEN_FRAMES     38
-#define WAIT_FRAMES       90
-#define ANIM_FRAME_MS     (1000 / 12)             // set to 1000 / your converted fps
+#define LISTEN_FRAMES     38                      // frames stored in listening.bin
+#define WAIT_FRAMES       90                      // frames stored in waiting.bin
+#define ANIM_FRAME_STEP   2                       // play every 2nd stored frame
+#define ANIM_FRAME_MS     (1000 / 6)              // original 12 fps / step 2 = 6 fps, same speed
 
 typedef enum { ANIM_LISTEN, ANIM_WAIT, ANIM_COUNT } anim_id_t;
 

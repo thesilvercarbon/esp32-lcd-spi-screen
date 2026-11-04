@@ -1,0 +1,14 @@
+menu "Audio streaming"
+    config STREAM_WIFI_SSID
+        string "Wi-Fi SSID"
+        default ""
+    config STREAM_WIFI_PASS
+        string "Wi-Fi password"
+        default ""
+    config STREAM_HOST
+        string "PC IPv4 address"
+        default ""
+    config STREAM_PORT
+        int "PC TCP port"
+        default 5000
+endmenu

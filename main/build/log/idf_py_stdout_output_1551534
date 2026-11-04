@@ -1,0 +1,8 @@
+Command: cmake -G Ninja -B /home/rising/projects/esp32/lcd-example/main/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/rising/.espressif/tools/python/v6.1/venv/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=False /home/rising/projects/esp32/lcd-example/main
+-- The C compiler identification is unknown
+-- The CXX compiler identification is unknown
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: /usr/lib64/ccache/cc
+-- Check for working C compiler: /usr/lib64/ccache/cc - broken
+-- Configuring incomplete, errors occurred!

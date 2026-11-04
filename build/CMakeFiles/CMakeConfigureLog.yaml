@@ -1,0 +1,554 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt"
+    message: |
+      The system is: Linux - 7.1.13-200.fc44.x86_64 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/lib64/ccache/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      as: unrecognized option '--64'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/lib64/ccache/cc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      as: unrecognized option '--64'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/lib64/ccache/cc 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      <command-line>: error: missing ‘(’ after predicate
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/lib64/ccache/cc 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c: In function ‘main’:
+      CMakeCCompilerId.c:876:5: warning: old-style function definition [-Wold-style-definition]
+        876 | int main(argc, argv) int argc; char *argv[];
+            |     ^~~~
+      as: unrecognized option '--64'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/lib64/ccache/cc 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      cc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+      cc: error: unrecognized command-line option ‘--target=arm-arm-none-eabi’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/lib64/ccache/cc 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      as: unrecognized option '--64'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/lib64/ccache/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      as: unrecognized option '--64'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/lib64/ccache/cc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      as: unrecognized option '--64'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/lib64/ccache/cc 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      <command-line>: error: missing ‘(’ after predicate
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/lib64/ccache/cc 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c: In function ‘main’:
+      CMakeCCompilerId.c:876:5: warning: old-style function definition [-Wold-style-definition]
+        876 | int main(argc, argv) int argc; char *argv[];
+            |     ^~~~
+      as: unrecognized option '--64'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/lib64/ccache/cc 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      cc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+      cc: error: unrecognized command-line option ‘--target=arm-arm-none-eabi’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/lib64/ccache/cc 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      as: unrecognized option '--64'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1284 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      cc: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1284 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      cc: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/lib64/ccache/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      as: unrecognized option '--64'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/lib64/ccache/c++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      as: unrecognized option '--64'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/lib64/ccache/c++ 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      1
+      c++: error: unrecognized command-line option ‘--c++’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/lib64/ccache/c++ 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      1
+      c++: error: unrecognized command-line option ‘--ec++’; did you mean ‘-Weffc++’?
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/lib64/ccache/c++ 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      c++: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+      c++: error: unrecognized command-line option ‘--target=arm-arm-none-eabi’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/lib64/ccache/c++ 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      as: unrecognized option '--64'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/lib64/ccache/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      as: unrecognized option '--64'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/lib64/ccache/c++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      as: unrecognized option '--64'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/lib64/ccache/c++ 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      1
+      c++: error: unrecognized command-line option ‘--c++’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/lib64/ccache/c++ 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      1
+      c++: error: unrecognized command-line option ‘--ec++’; did you mean ‘-Weffc++’?
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/lib64/ccache/c++ 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      c++: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+      c++: error: unrecognized command-line option ‘--target=arm-arm-none-eabi’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/lib64/ccache/c++ 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      as: unrecognized option '--64'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1284 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+      c++: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1284 (message)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+      c++: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/rising/esp32-lcd-spi-screen/build/CMakeFiles/CMakeScratch/TryCompile-eAx2Fw"
+      binary: "/home/rising/esp32-lcd-spi-screen/build/CMakeFiles/CMakeScratch/TryCompile-eAx2Fw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/rising/esp32-lcd-spi-screen/build/CMakeFiles/CMakeScratch/TryCompile-eAx2Fw'
+        
+        Run Build Command(s): /home/rising/.espressif/tools/ninja/1.12.1/ninja -v cmTC_2dcd4
+        [1/2] /usr/lib64/ccache/cc    -o CMakeFiles/cmTC_2dcd4.dir/CMakeCCompilerABI.c.o -c /home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeCCompilerABI.c
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_2dcd4.dir/CMakeCCompilerABI.c.o 
+        /usr/lib64/ccache/cc    -o CMakeFiles/cmTC_2dcd4.dir/CMakeCCompilerABI.c.o -c /home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeCCompilerABI.c
+        as: unrecognized option '--64'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/rising/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt"
+    checks:
+      - "Check for working C compiler: /usr/lib64/ccache/cc"
+    directories:
+      source: "/home/rising/esp32-lcd-spi-screen/build/CMakeFiles/CMakeScratch/TryCompile-BbGtg1"
+      binary: "/home/rising/esp32-lcd-spi-screen/build/CMakeFiles/CMakeScratch/TryCompile-BbGtg1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/rising/esp32-lcd-spi-screen/build/CMakeFiles/CMakeScratch/TryCompile-BbGtg1'
+        
+        Run Build Command(s): /home/rising/.espressif/tools/ninja/1.12.1/ninja -v cmTC_c246f
+        [1/2] /usr/lib64/ccache/cc    -o CMakeFiles/cmTC_c246f.dir/testCCompiler.c.o -c /home/rising/esp32-lcd-spi-screen/build/CMakeFiles/CMakeScratch/TryCompile-BbGtg1/testCCompiler.c
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_c246f.dir/testCCompiler.c.o 
+        /usr/lib64/ccache/cc    -o CMakeFiles/cmTC_c246f.dir/testCCompiler.c.o -c /home/rising/esp32-lcd-spi-screen/build/CMakeFiles/CMakeScratch/TryCompile-BbGtg1/testCCompiler.c
+        as: unrecognized option '--64'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...

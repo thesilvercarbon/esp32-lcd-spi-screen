@@ -64,3 +64,15 @@ void ui_set_mode(ui_mode_t m)
     if (m != s_mode) apply_mode(m);
     lvgl_port_unlock();
 }
+
+void ui_toggle_mode(void){
+    lvgl_port_lock(0);
+    ui_mode_t next = (s_mode == UI_WAITING) ? UI_LISTENING : UI_WAITING;
+    apply_mode(next);
+    lvgl_port_unlock();
+}
+
+
+
+
+

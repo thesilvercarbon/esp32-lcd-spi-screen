@@ -48,7 +48,7 @@ static void tick_cb(lv_timer_t *t)
     if (!s_cur) return;
     s_dsc.data = s_cur->base + (size_t)s_idx * ANIM_FRAME_BYTES;
     lv_image_set_src(s_img, &s_dsc);               // invalidates -> redraw
-    s_idx = (s_idx + 1) % s_cur->frames;
+    s_idx = (s_idx + ANIM_FRAME_STEP) % s_cur->frames;
 }
 
 esp_err_t anim_init(lv_obj_t *parent)
